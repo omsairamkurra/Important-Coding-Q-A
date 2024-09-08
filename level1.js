@@ -122,3 +122,42 @@ function checkSign(number) {
 checkSign(10);
 checkSign(-5);
 checkSign(0);
+
+//Quadratic equation
+function manualSqrt(num) {
+  if (num < 0) {
+    return NaN;
+  }
+  let guess = num / 2;
+  let precision = 0.000001;
+
+  while (guess * guess - num > precision || num - guess * guess > precision) {
+    guess = (guess + num / guess) / 2;
+  }
+
+  return guess;
+}
+
+function solveQuadratic(a, b, c) {
+  const discriminant = b * b - 4 * a * c;
+
+  if (discriminant > 0) {
+    const sqrtDiscriminant = manualSqrt(discriminant);
+    const x1 = (-b + sqrtDiscriminant) / (2 * a);
+    const x2 = (-b - sqrtDiscriminant) / (2 * a);
+    console.log(`The roots are ${x1} and ${x2}.`);
+  } else if (discriminant === 0) {
+    const x = -b / (2 * a);
+    console.log(`The root is ${x}.`);
+  } else {
+    const realPart = -b / (2 * a);
+    const imaginaryPart = manualSqrt(-discriminant) / (2 * a);
+    console.log(
+      `The roots are ${realPart} + ${imaginaryPart}i and ${realPart} - ${imaginaryPart}i.`
+    );
+  }
+}
+
+solveQuadratic(1, -3, 2);
+solveQuadratic(1, -2, 1);
+solveQuadratic(1, 2, 5);
