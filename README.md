@@ -19,3 +19,23 @@ Leap year checking
 Positive negative checking
 
 Quadratic equation
+
+Programs using Loops (19)
+
+Factorial without using function
+
+Square of N
+
+Calculate x to the power y
+
+Multiplication table
+
+Sum of natural numbers
+
+Fibonacci starting from any two numbers
+
+Upper case to Lower case
+
+Lower to upper
+
+Pascal triangle
