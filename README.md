@@ -39,3 +39,30 @@ Upper case to Lower case
 Lower to upper
 
 Pascal triangle
+
+LCM & GCD
+
+Prime numbers between two ranges
+
+Factors of a number
+
+Prime Factors
+
+Bin to dec and oct
+
+Count the number of digit in an integer
+
+Reverse the digits of given number
+
+Number palindrome
+
+Digit summation
+
+Amstrong checking
+
+Programs using Arrays (13)
+
+Fibonacci using array
+
+Largest among N numbers in an array
+
