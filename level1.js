@@ -1,3 +1,4 @@
+// Simple Programs
 //Find area of a rectangle
 
 function areaOfRectangle(l, b) {
